@@ -40,3 +40,39 @@ https://github.com/glysns/trilha-java-basico/desafios/poo/README.md
 ```
 
 ## Minha Solução
+### Diagrama de Classe
+
+Para a modelagem do Diagrama de Classe, eu utilizei o [Mermaid](https://mermaid.js.org/).
+
+```mermaid
+classDiagram
+
+class IPhone {
+    
+}
+
+class ReprodutorMusical {
+    <<interface>>
+    +tocar() 
+    +pausar() 
+    +selecionarMusica(String musica)
+}
+
+class AparelhoTelefonico {
+    <<interface>>
+    +ligar(String numero)
+    +atender()
+    +iniciarCorreioVoz()
+}
+
+class NavegadorInternet {
+    <<interface>>
+    +exibirPagina(String url)
+    +adicionarNovaAba()
+    +atualizarPagina()
+}
+
+IPhone --> ReprodutorMusical
+IPhone --> AparelhoTelefonico
+IPhone --> NavegadorInternet
+```
