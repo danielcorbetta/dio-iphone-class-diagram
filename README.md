@@ -76,3 +76,9 @@ IPhone --> ReprodutorMusical
 IPhone --> AparelhoTelefonico
 IPhone --> NavegadorInternet
 ```
+
+### Classes .java
+- [IPhone](/classes/IPhone.java)
+- [AparelhoTelefonico](/classes/AparelhoTelefonico.java)
+- [NavegadorInternet](/classes/NavegadorInternet.java)
+- [ReprodutorMuscial](/classes/ReprodutorMusical.java)
